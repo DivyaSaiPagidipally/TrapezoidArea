@@ -8,7 +8,11 @@ def divisionByTwo(additionValue):
 def multiplication(divisionValue,h):
     return(divisionValue*h)
 
-
-
 def addition(a,b):
     return(a+b)
+
+add=addition(a,b)
+div=divisionByTwo(add)
+mul=multiplication(div,h)
+print("Traepzoid area is:",mul)
+
